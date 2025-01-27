@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Writeup</title>
+  <link rel="stylesheet" href="New1.css">  <!-- Link to the external CSS file -->
+</head>
+<body>
+
+<div class="container">
+  <h1>Writeup</h1>
+  <p class="prompt-text">Enter a topic</p>
+  
+  <textarea id="researchQuery" class="input-field" placeholder="Enter your research topic here"></textarea>
+  
+  <button id="generateBtn" class="btn">Generate Research</button>
+
+  <div id="output">
+    <h2>Research Paper:</h2>
+    <pre id="researchText"></pre>
+
+    <h3>References:</h3>
+    <ul id="referencesList"></ul>
+
+    <!-- Buttons for selecting and copying text -->
+    <button class="select-btn" onclick="selectText()">Select Text</button>
+    <button class="copy-btn" onclick="copyText()">Copy Text</button>
+  </div>
+</div>
+
+<script src="New2.js"></script>  <!-- Link to the external JavaScript file -->
+</body>
+</html>
