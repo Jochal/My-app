@@ -1,0 +1,117 @@
+/* Styling the page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d4f0d0; /* Light green background */
+  margin: 0;
+  padding: 0;
+  color: #2e8b57; /* Darker green text */
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+h1 {
+  font-size: 36px;
+  color: green;
+  background-color: lightgreen;
+  border-radius: 50px;
+  padding: 10px 20px;
+  text-transform: uppercase; /* Make it capitalized */
+}
+
+/* Styling for the "Enter a topic" prompt */
+.prompt-text {
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  background-color: #006400; /* Dark green background */
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #006400;
+  border-radius: 5px;
+  height: 120px; /* Increased height to accommodate multiple lines */
+  resize: vertical; /* Allow the user to resize the input field */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #1E3A8A; /* Darker blue */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background-color: #006400; /* Green on hover */
+}
+
+#output {
+  margin-top: 20px;
+  text-align: left;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+pre {
+  font-family: "Times New Roman", Times, serif; /* Times New Roman font */
+  font-size: 12px; /* Set font size to 12px */
+  background-color: #f0f8f0;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  min-height: 200px; /* Reduced height for the output */
+  overflow-y: scroll;
+  white-space: pre-wrap; /* Ensure long words break correctly */
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+  text-align: left;
+}
+
+li {
+  font-size: 16px;
+}
+
+.citation {
+  color: #006400;
+  font-size: 14px;
+  display: block;
+}
+
+/* Styling for the Copy and Select Text Buttons */
+.copy-btn, .select-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #1E3A8A; /* Darker blue */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.copy-btn:hover, .select-btn:hover {
+  background-color: #006400; /* Green on hover */
+}
